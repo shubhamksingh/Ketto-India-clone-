@@ -6,8 +6,9 @@ function App() {
     <>
       <div className="App">
         <h1>Ketto</h1>
+        <AllRoutes />
       </div>
-      <AllRoutes />
+      
     </>
   );
 }
