@@ -1,0 +1,10 @@
+.footer{
+    height: 350px;
+    background-color: #234a49;
+    color: white;
+    
+}
+.footer>div{
+    width: 60%;
+    margin: auto;
+}
