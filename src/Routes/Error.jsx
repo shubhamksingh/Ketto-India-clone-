@@ -6,11 +6,11 @@ function Error() {
   return (
     <div>
       <h1>404</h1>
-      <p>Page Not Found</p>
+      <p style={{fontSize:'40px'}}>Page Not Found</p>
       <br />
       <br />  
       <Center>
-        <Button colorScheme='teal' size='lg' onClick={()=> navigate('/')} >
+        <Button colorScheme='purple' size='lg' onClick={()=> navigate('/')} >
           Go Back Home
         </Button>
       </Center>
