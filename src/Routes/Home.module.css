@@ -1,0 +1,50 @@
+.banner{
+    height: 450px;
+    background-image: url("./ketto_child.png");
+    font-size: 100px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.banner>div{
+    width: 40%;
+    padding-top: 80px;
+    
+}
+.banner h2{
+    color: rgb(78, 70, 70);
+    font-size: 30px;
+    font-weight: bold ;
+    /* border: 1px solid black; */
+    line-height: 1.3;
+    text-align: start;
+}
+.inside_banner{
+    font-size: 10px ;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.inside_banner1{
+    display: flex;
+    gap: 2rem;
+    font-size: 26px;
+    font-weight: bold;
+    color: #039695;
+}   
+.inside_banner1 span{
+    font-size: 16px;
+    font-weight: bold;
+    color: #999999;
+}
+.inside_banner2{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    align-items: flex-start;
+    font-size: 20px;
+    color: #039695;
+}
+.inside_banner2:nth-child(3){
+    font-weight: 600;
+}
