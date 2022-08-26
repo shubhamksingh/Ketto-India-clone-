@@ -1,0 +1,15 @@
+.banner{
+    height: 450px;
+    background-image: url("./ketto_child.png");
+    font-size: 100px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.banner>div{
+    width: 40%;
+    padding-top: 50px;
+}
+.banner h2{
+    font-size: 30px;
+}
