@@ -1,0 +1,23 @@
+
+.navbar{
+    display: flex;
+    gap: 1rem;
+    padding-left: 15%;
+    align-items: baseline;
+    border: 1px solid black;
+    height: 70px;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+.navbar img{
+    margin-right: 3rem;
+}
+.navbar div{
+    /* height: 1rem;       */
+    border-left   : 1px solid black;  
+    padding-left: 20px;
+    
+}
+img{
+    width: 60px;
+}

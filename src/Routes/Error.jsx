@@ -5,7 +5,7 @@ function Error() {
   const navigate = useNavigate();
   return (
     <div>
-      <h1 className='text-3xl bg-slate-300 font-bold'>404</h1>
+      <h1>404</h1>
       <p style={{fontSize:'40px'}}>Page Not Found</p>
       <br />
       <br />  
