@@ -8,3 +8,14 @@
     width: 60%;
     margin: auto;
 }
+.icons{
+    display: flex;
+    align-items:flex-end;
+    gap:5px;    
+    height: 25px;
+}
+.parent_icon{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem   ;
+}
