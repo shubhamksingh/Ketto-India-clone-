@@ -1,4 +1,4 @@
-import { Image } from "@chakra-ui/react";
+import { Flex, Image } from "@chakra-ui/react";
 import { ImLinkedin2} from "react-icons/im";
 import {AiFillFacebook, AiOutlineTwitter, AiFillYoutube, AiOutlineInstagram,AiOutlineWhatsApp} from 'react-icons/ai'
 import styles from "./Footer.module.css";
@@ -22,15 +22,12 @@ export const Footer = () => {
                 <b>Contact No: +91 9930088522</b>
             </div>
         </div>
-        <div>
-            <div>
-                <h4></h4>
-                
-            </div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
+          <Flex>
+            <Flex></Flex>
+            <Flex></Flex>
+            <Flex></Flex>
+            <Flex></Flex>
+          </Flex>
        </div>
        
         <div style={{ display: "flex", justifyContent: "flex-end" }}>
