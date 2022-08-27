@@ -1,4 +1,5 @@
-import { Button } from '@chakra-ui/react';
+import { Box, Button } from '@chakra-ui/react';
+import { Container } from 'postcss';
 import styles from './Home.module.css'
 export const Home = () => {
   return (
@@ -19,6 +20,10 @@ export const Home = () => {
           </div>
       </div>
       </div>
+
+      <Container>
+        <Box></Box>
+      </Container>
     </div>
   )
 };
