@@ -1,12 +1,13 @@
-import { Button, Center } from '@chakra-ui/react'
+import { Box, Button, Center } from '@chakra-ui/react'
 import { useNavigate } from 'react-router-dom';
 
 function Error() {
   const navigate = useNavigate();
   return (
     <div>
-      <h1>404</h1>
-      <p style={{fontSize:'40px'}}>Page Not Found</p>
+      <Box h='4rem'></Box>
+      <h1 style={{fontSize:'40px', fontWeight:'bold'}}>404</h1>
+      <p style={{fontSize:'40px', fontWeight:'bold'}}>Page Not Found</p>
       <br />
       <br />  
       <Center>
@@ -14,6 +15,7 @@ function Error() {
           Go Back Home
         </Button>
       </Center>
+      <Box h='4rem'></Box>
     </div>
   );
 }

@@ -1,22 +1,24 @@
 import styles from "./Navbar.module.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { Button, Input } from "@chakra-ui/react";
 import { AiOutlineSearch, AiOutlineWhatsApp } from "react-icons/ai";
 import { useContext } from "react";
 import { AppContext } from "../Context/Context";
 
+
 export const Navbar = () => {
   const {state, dispatch} = useContext(AppContext);
+  const navigate = useNavigate();
   return (
     <div className={styles.navbar}>
-      <Link to="/login">
+      <Link to="/">
         <img
           src="https://ketto.gumlet.io/assets/images/logo-light-bg.svg?w=100&dpr=1.1"
           alt=""
         />
       </Link>
 
-      <Link to="/">
+      <Link to="/newfundraiser">
         <p>Browse Fundraisers</p>
       </Link>
       <Link to="/">
@@ -57,9 +59,9 @@ export const Navbar = () => {
         Chat
       </Button>
       <Button height="2rem" border="2px" colorScheme="teal" variant="outline">
-        Start a FundRaiser
+        <Link to='/newfundraiser'>Start a FundRaiser</Link>
       </Button>
-      {!state.isAuth? <Button  variant="ghost"><Link to='/login'>Sign in</Link></Button>: "Welcome Shubham"}
+      {!state.isAuth? <Button  variant="ghost"><Link to='/login'>Sign in</Link></Button>:  <Button onClick={()=> navigate('/profile')}>Welcome Shubham</Button>}
       {state.isAuth&& <Button onClick={() => dispatch({type: 'logout'})}>Logout</Button>}
       
     </div>
