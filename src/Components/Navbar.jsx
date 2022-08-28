@@ -2,8 +2,11 @@ import styles from "./Navbar.module.css";
 import { Link } from "react-router-dom";
 import { Button, Input } from "@chakra-ui/react";
 import { AiOutlineSearch, AiOutlineWhatsApp } from "react-icons/ai";
+import { useContext } from "react";
+import { AppContext } from "../Context/Context";
 
 export const Navbar = () => {
+  const {state, dispatch} = useContext(AppContext);
   return (
     <div className={styles.navbar}>
       <Link to="/login">
@@ -33,20 +36,18 @@ export const Navbar = () => {
         />
       </div> */}
       <Button
-        
         height="2rem"
         leftIcon={<AiOutlineSearch />}
         // colorScheme="green"
-              variant="link"
-              width='10rem'
+        variant="link"
+        width="10rem"
       >
         Search
       </Button>
       <Button
-        as='a'
-        href='https://api.whatsapp.com/send?phone=919930088522'
-        
-        target = "_blank"
+        as="a"
+        href="https://api.whatsapp.com/send?phone=919930088522"
+        target="_blank"
         border="2px"
         height="2rem"
         leftIcon={<AiOutlineWhatsApp style={{ color: "green" }} />}
@@ -57,10 +58,10 @@ export const Navbar = () => {
       </Button>
       <Button height="2rem" border="2px" colorScheme="teal" variant="outline">
         Start a FundRaiser
-          </Button>
-          <Button variant='ghost'>
-              Sign in
       </Button>
+      {!state.isAuth? <Button  variant="ghost"><Link to='/login'>Sign in</Link></Button>: "Welcome Shubham"}
+      {state.isAuth&& <Button onClick={() => dispatch({type: 'logout'})}>Logout</Button>}
+      
     </div>
   );
 };

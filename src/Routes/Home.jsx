@@ -22,7 +22,7 @@ export const Home = () => {
       </div>
 
       {/* <Container w='100%' minHeight='70vh' width='container.xl' centerContent> */}
-        <Box w='50%' m='auto'>
+        <Box w='50%' m='auto' mb='3rem'>
           <Box as='h2' fontSize='40px' p='2rem' mt='1rem' fontWeight='bold'>Start a Fundraiser in three simple steps</Box>
           <Box display='flex' gap='4rem' flexDirection='row' w='100%' alignItems='center'>
             <Image src='https://ketto.gumlet.io/assets/images/homepage/sac-separator.png?w=100&dpr=1.1' h='20rem' />
