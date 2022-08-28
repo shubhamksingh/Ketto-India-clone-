@@ -7,7 +7,7 @@ export const FooterCard = (bool, ...arr) =>{
     
   })
   if(bool) return(
-    <Flex flexDirection='column' align='flex-start' gap='0.4rem' ml='4rem' mt='1rem'>
+    <Flex flexDirection='column' align='flex-start' gap='0.5rem' ml='4rem' mt='1rem'>
     {list}
     </Flex>
   )

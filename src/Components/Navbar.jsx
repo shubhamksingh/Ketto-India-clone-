@@ -6,7 +6,7 @@ import { AiOutlineSearch, AiOutlineWhatsApp } from "react-icons/ai";
 export const Navbar = () => {
   return (
     <div className={styles.navbar}>
-      <Link to="/">
+      <Link to="/login">
         <img
           src="https://ketto.gumlet.io/assets/images/logo-light-bg.svg?w=100&dpr=1.1"
           alt=""
@@ -43,13 +43,17 @@ export const Navbar = () => {
         Search
       </Button>
       <Button
+        as='a'
+        href='https://api.whatsapp.com/send?phone=919930088522'
+        
+        target = "_blank"
         border="2px"
         height="2rem"
         leftIcon={<AiOutlineWhatsApp style={{ color: "green" }} />}
         colorScheme="green"
         variant="outline"
       >
-        Email
+        Chat
       </Button>
       <Button height="2rem" border="2px" colorScheme="teal" variant="outline">
         Start a FundRaiser
