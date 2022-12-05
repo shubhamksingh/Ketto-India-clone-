@@ -6,20 +6,13 @@
 <img width="700px"   src="https://i.imgur.com/TShh0va.png"/>
 <h5>Log in Page</h5>
 <img  width="700px"  src="https://i.imgur.com/TShh0va.png"/>
-<h5>Book Slot</h5>
-<img  width="700px"  src="https://i.imgur.com/E43GVH1.png"/>
-<h5>Dashboard</h5>
-<img  width="700px"  src="https://i.imgur.com/8UOOAeJ.png"/>
-<h5>Add Task</h5>
-<img  width="700px"  src="https://i.imgur.com/BP537VK.png"/>
-<h5>Create Project</h5>
-<img  width="700px"  src="https://i.imgur.com/8mLHWpz.png"/>
-<h5>Clients</h5>
-<img  width="700px"  src="https://i.imgur.com/Ij8GsI3.png"/>
-<h5>Team Members</h5>
-<img  width="700px"  src="https://i.imgur.com/0i71qkc.png"/>
-<h5>Update Profile</h5>
-<img  width="700px"  src="https://i.imgur.com/5kgT6qb.png"/>
+<h5>Start a fund raiser</h5>
+<img  width="700px"  src="https://i.ibb.co/J3Dj0Q4/ketto-fundraiser.png"/>
+<h5>Ketto profile page</h5>
+<img  width="700px"  src="https://i.ibb.co/ZgZxHDV/ketto-profile.png"/>
+<h5>Ketto whats app</h5>
+<img  width="700px"  src="https://i.ibb.co/pn24DkV/ketto-watsapp.png"/>
+
 </div>
 
 <h3>Description of Tech stack Team</h3>
@@ -27,7 +20,7 @@
 <h3>Deployed netlify Link</h3>
 <ul>
 <li>
-<a  href="https://the-great-pravhatray-site.netlify.app/">🔗 Visit Site Everhour 🌐</a>
+<a  href="https://ketto-shubhamksingh.vercel.app/">🔗 Visit Site Ketto India org 🌐</a>
 </li>
 </ul>
 
@@ -35,14 +28,13 @@
 <ul>
 <li>Login/signup Authentication.</li>
 <li>Landing page with functionality.</li>
-<li>Schedule slot for overiview or demo</li>
+<li>Start a fundraiser</li>
 <li>Footer linked with social media sites.</li>
-<li>Add tasks on calender</li>
-<li>Create Project,add,create,update projects</li>
-<li>Clients management,add,create,update clients</li>
-<li>Team memebers management</li>
-<li>Responsive for all screen sizes.</li>
-<li>Skeleton Loading for User Interface(UI)</li>
+<li>browse for fundraiser</li>
+<li>Create new fundraiser and delete old ones</li>
+<li>update your profile</li>
+<li>Join Ketto whatsapp group</li>
+
 </ul>
 
 
@@ -51,37 +43,21 @@
 <li>REACT JS | REDUX | Express</li>
 <li>CHAKRA UI(For designing the website).</li>
 <li>REACT-ROUTER-DOM</li>
-<li>Mongo DB (for maintining database)</li>
 </ul>
 
 
 <h4>Authors</h4>
 
 <ul>
-<li>Pravhat Ray</li>
-<ul>
-<li><a href="https://github.com/pravhatray"  >Github</a></li>
-<li><a href="linkedin.com/in/pravhat-ray-842851236"  >LinkedIn Profile </a></li>
-<li><a href="pravhatray@gmail.com "  >G-mail</a></li>
-</ul>
+
+
 <li>Shubham Singh</li>
 <ul>
 <li><a href="https://github.com/shubhamksingh"  >Github</a></li>
 <li><a href="https://www.linkedin.com/in/shubham-singh-b54376247/"  >LinkedIn Profile </a></li>
 <li><a href="shubhsingh0795@gmail.com"  >G-mail</a></li>
 </ul>
-<li>Alisha Mohasin</li>
-<ul>
-<li><a href="https://github.com/AlishaMohasin"  >Github</a></li>
-<li><a href="https://www.linkedin.com/in/alishamohasin/"  >LinkedIn Profile </a></li>
-<li><a href="alishamohasin859@gmail.com"  >G-mail</a></li>
-</ul>
-<li>Vivek Rana</li>
-<ul>
-<li><a href="https://github.com/vivek13420"  >Github</a></li>
-<li><a href="https://www.linkedin.com/in/vivek-rana-74bb9a220/"  >LinkedIn Profile </a></li>
-<li><a href="vivekrana13420@gmail.com"  >G-mail</a></li>
-</ul>
+
 
 </ul>
 
