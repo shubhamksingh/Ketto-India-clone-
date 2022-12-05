@@ -1,7 +1,7 @@
 <div>
-<h3 >Clone website of Everhour.com</h3>
+<h3 >Clone website of Ketto.com</h3>
 <img width="700px" src="https://i.imgur.com/i1gseiH.png"/>
-<p>Everhour is a time management system with a strong focus on integration. If you're managing all your tasks in a specialized system, such as Asana, Trello, Basecamp, where there is no native time tracking functionality (or it's limited), you'll need to use a third-party service.</p>
+<p>Ketto is an Online Crowdfunding Platform and Website in India to raise funds for Social and Charitable causes. set out with the goal of making healthcare more accessible to everyone. With the mission of harnessing the power of technology to make a large-scale social impact.</p>
 <h5>Sign up Page</h5>
 <img width="700px"   src="https://i.imgur.com/ekXtmHF.png"/>
 <h5>Log in Page</h5>
