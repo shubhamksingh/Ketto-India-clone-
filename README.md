@@ -3,9 +3,9 @@
 <img width="700px" src="https://i.imgur.com/i1gseiH.png"/>
 <p>Ketto is an Online Crowdfunding Platform and Website in India to raise funds for Social and Charitable causes. set out with the goal of making healthcare more accessible to everyone. With the mission of harnessing the power of technology to make a large-scale social impact.</p>
 <h5>Sign up Page</h5>
-<img width="700px"   src="https://i.imgur.com/ekXtmHF.png"/>
+<img width="700px"   src="https://i.imgur.com/TShh0va.png"/>
 <h5>Log in Page</h5>
-<img  width="700px"  src="https://i.imgur.com/MNnxcrI.png"/>
+<img  width="700px"  src="https://i.imgur.com/TShh0va.png"/>
 <h5>Book Slot</h5>
 <img  width="700px"  src="https://i.imgur.com/E43GVH1.png"/>
 <h5>Dashboard</h5>
