@@ -107,6 +107,7 @@ export const Footer = () => {
           <Image
             src="https://ketto.gumlet.io/assets/images/homepage/footer-secured-card.png?w=457&dpr=1.1"
             maxW="400px"
+            minW={{ base: "200px", md: "25rem" }}
             maxH="30px"
           />
         </div>
