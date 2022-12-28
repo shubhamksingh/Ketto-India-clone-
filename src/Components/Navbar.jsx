@@ -1,24 +1,24 @@
 import styles from "./Navbar.module.css";
 import { Link, useNavigate } from "react-router-dom";
-import { Button, Input } from "@chakra-ui/react";
+import { Box, Button, Input } from "@chakra-ui/react";
 import { AiOutlineSearch, AiOutlineWhatsApp } from "react-icons/ai";
 import { useContext } from "react";
 import { AppContext } from "../Context/Context";
 
-
 export const Navbar = () => {
-  const {state, dispatch} = useContext(AppContext);
+  const { state, dispatch } = useContext(AppContext);
   const navigate = useNavigate();
   return (
-    <div className={styles.navbar}>
+    <Box className={styles.navbar}>
       <Link to="/">
         <img
           src="https://ketto.gumlet.io/assets/images/logo-light-bg.svg?w=100&dpr=1.1"
           alt=""
         />
       </Link>
-
-      <Link to="/newfundraiser">
+     
+     <Box display={{base:'none', lg:'flex'} }  gap='2rem' alignItems={'center'}>
+     <Link to="/newfundraiser">
         <p>Browse Fundraisers</p>
       </Link>
       <Link to="/">
@@ -42,7 +42,7 @@ export const Navbar = () => {
         leftIcon={<AiOutlineSearch />}
         // colorScheme="green"
         variant="link"
-        width="10rem"
+        maxWidth="10rem"
       >
         Search
       </Button>
@@ -59,11 +59,20 @@ export const Navbar = () => {
         Chat
       </Button>
       <Button height="2rem" border="2px" colorScheme="teal" variant="outline">
-        <Link to='/newfundraiser'>Start a FundRaiser</Link>
+        <Link to="/newfundraiser">Start a FundRaiser</Link>
       </Button>
-      {!state.isAuth? <Button  variant="ghost"><Link to='/login'>Sign in</Link></Button>:  <Button onClick={()=> navigate('/profile')}>Welcome Shubham</Button>}
-      {state.isAuth&& <Button onClick={() => dispatch({type: 'logout'})}>Logout</Button>}
-      
-    </div>
+     </Box>
+
+      {!state.isAuth ? (
+        <Button variant="ghost">
+          <Link to="/login">Sign in</Link>
+        </Button>
+      ) : (
+        <Button onClick={() => navigate("/profile")}>Welcome Shubham</Button>
+      )}
+      {state.isAuth && (
+        <Button onClick={() => dispatch({ type: "logout" })}>Logout</Button>
+      )}
+    </Box>
   );
 };

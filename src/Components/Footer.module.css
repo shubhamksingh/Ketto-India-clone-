@@ -1,18 +1,18 @@
 .footer{
-    height: 350px;
+    min-height: 350px;
     background-color: #234a49;
     color: white;
     
 }
 .footer>div{
-    width: 60%;
+    width: 100%;
     margin: auto;
 }
 .icons{
     display: flex;
     align-items:flex-end;
     gap:5px;    
-    height: 25px;
+    min-height: 25px;
 }
 .parent_icon{
     display: flex;

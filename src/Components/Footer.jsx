@@ -1,4 +1,4 @@
-import { Flex, Image } from "@chakra-ui/react";
+import { Box, Flex, Image } from "@chakra-ui/react";
 import { ImLinkedin2 } from "react-icons/im";
 import {
   AiFillFacebook,
@@ -11,15 +11,15 @@ import styles from "./Footer.module.css";
 import { FooterCard } from "../Utiles/FooterCard";
 export const Footer = () => {
   return (
-    <div className={styles.footer}>
-      <div>
-        <div style={{ display: "flex" }}>
+    <Box /*className={styles.footer} border='10px solid black'*/ display={{base: 'none', lg:'flex'}} bgColor='#234a49' color='white'>
+      < Box m='auto'  /*border='3px solid orange'*/>
+        <Box /*style={{ display: "flex" }}*/ display={'flex'} /* border='3px solid green'*/ justifyContent={'center'}>
           <div
             style={{
-              display: "flex",
-              flexDirection: "column",
-              gap: "2rem",
-              paddingTop: "1rem",
+              display: "flex" ,
+              flexDirection: "column"  ,
+              gap: "2rem"  ,
+              paddingTop: "1rem"  ,
             }}
           >
             <div className={styles.parent_icon}>
@@ -95,7 +95,7 @@ export const Footer = () => {
               "Contact Us",
             )}
           </Flex>
-        </div>
+        </Box>
 
         <div
           style={{
@@ -106,13 +106,13 @@ export const Footer = () => {
         >
           <Image
             src="https://ketto.gumlet.io/assets/images/homepage/footer-secured-card.png?w=457&dpr=1.1"
-            width="400px"
-            height="30px"
+            maxW="400px"
+            maxH="30px"
           />
         </div>
         <div
           style={{
-            borderTop: "1px solid grey ",
+            /*borderTop: "1px solid grey ",*/
             paddingTop: "5px",
             marginTop: "10px",
             fontSize: "10px",
@@ -121,7 +121,7 @@ export const Footer = () => {
           Copyright © 2022 Ketto Online Ventures Pvt Ltd. All Rights Reserved.
           Terms of Use | Privacy Policy | AML Policy | Use of cookies{" "}
         </div>
-      </div>
-    </div>
+      </Box>
+    </Box>
   );
 };
