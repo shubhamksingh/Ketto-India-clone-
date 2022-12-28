@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+<div>
+<h3 >Clone website of Ketto.com</h3>
+<img width="700px" src="https://i.imgur.com/i1gseiH.png"/>
+<p>Ketto is an Online Crowdfunding Platform and Website in India to raise funds for Social and Charitable causes. set out with the goal of making healthcare more accessible to everyone. With the mission of harnessing the power of technology to make a large-scale social impact.</p>
+<h5>Sign up Page</h5>
+<img width="700px"   src="https://i.imgur.com/TShh0va.png"/>
+<h5>Log in Page</h5>
+<img  width="700px"  src="https://i.imgur.com/TShh0va.png"/>
+<h5>Start a fund raiser</h5>
+<img  width="700px"  src="https://i.ibb.co/J3Dj0Q4/ketto-fundraiser.png"/>
+<h5>Ketto profile page</h5>
+<img  width="700px"  src="https://i.ibb.co/ZgZxHDV/ketto-profile.png"/>
+<h5>Ketto whats app</h5>
+<img  width="700px"  src="https://i.ibb.co/pn24DkV/ketto-watsapp.png"/>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+</div>
 
-## Available Scripts
+<h3>Description of Tech stack Team</h3>
 
-In the project directory, you can run:
+<h3>Deployed netlify Link</h3>
+<ul>
+<li>
+<a  href="https://ketto-shubhamksingh.vercel.app/">🔗 Visit Site Ketto India org 🌐</a>
+</li>
+</ul>
 
-### `npm start`
+<h4>Features</h4>
+<ul>
+<li>Login/signup Authentication.</li>
+<li>Landing page with functionality.</li>
+<li>Start a fundraiser</li>
+<li>Footer linked with social media sites.</li>
+<li>browse for fundraiser</li>
+<li>Create new fundraiser and delete old ones</li>
+<li>update your profile</li>
+<li>Join Ketto whatsapp group</li>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+</ul>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+🛠 <h4>Skills</h4>
+<ul>
+<li>REACT JS | REDUX | Express</li>
+<li>CHAKRA UI(For designing the website).</li>
+<li>REACT-ROUTER-DOM</li>
+</ul>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+<h4>Authors</h4>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<ul>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<li>Shubham Singh</li>
+<ul>
+<li><a href="https://github.com/shubhamksingh"  >Github</a></li>
+<li><a href="https://www.linkedin.com/in/shubham-singh-b54376247/"  >LinkedIn Profile </a></li>
+<li><a href="shubhsingh0795@gmail.com"  >G-mail</a></li>
+</ul>
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+</ul>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
